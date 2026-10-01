@@ -68,9 +68,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("androidx.navigation:navigation-compose:2.8.5")
     implementation("androidx.documentfile:documentfile:1.0.1")
-    implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1")
-    kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-runtime:2.8.5")
+    implementation("androidx.room:room-ktx:2.8.5")
+    kapt("androidx.room:room-compiler:2.8.5")
     implementation("dev.ffmpegkit-maintained:ffmpeg-kit-audio:8.1.7")
     // FFmpegKit 8.1.7 references this at runtime but its published POM does not
     // declare it transitively. Without it release builds fail on first command.
